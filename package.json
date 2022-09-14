@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-function-comments",
+  "version": "1.0.0",
+  "description": "检查 function 是否包含 JSDoc 注释的插件",
+  "main": "index.js",
+  "scripts": {
+    "pub:patch": "npm version patch",
+    "pub:minor": "npm version minor",
+    "pub:major": "npm version major",
+    "preversion": "npm test",
+    "postversion": "npm publish && git push && git push --tags",
+    "test": "mocha tests/lib/rules"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "function-comments"
+  ],
+  "author": "curry",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "mocha": "^10.0.0"
+  }
+}
