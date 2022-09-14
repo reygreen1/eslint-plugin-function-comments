@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "检查 function 是否包含 JSDoc 注释的插件",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/reygreen1/eslint-plugin-function-comments",
+    "directory": "/",
+    "type": "git"
+  },
   "scripts": {
     "pub:patch": "npm version patch",
     "pub:minor": "npm version minor",
