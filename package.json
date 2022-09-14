@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-function-comments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "检查 function 是否包含 JSDoc 注释的插件",
   "main": "index.js",
   "repository": {
